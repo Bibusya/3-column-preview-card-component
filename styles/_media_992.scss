@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100hv;
+        max-width: 900px;
+        margin: auto;
+    }
+    .sedans {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .luxury {
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .card {
+        padding: 45px;
+    }
+
+    .card p {
+        margin-bottom: 80px;
+
+    }
+}
